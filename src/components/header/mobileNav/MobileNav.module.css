@@ -1,0 +1,52 @@
+.overlay {
+  position: absolute;
+  top: 0;
+  right: -100%;
+  bottom: 0;
+  background: rgba(255, 255, 255, 0.04);
+  backdrop-filter: blur(40.7742px);
+  z-index: 10;
+  width: 66%;
+  height: 100dvh;
+  transition: all 0.3s ease-in-out;
+  visibility: hidden;
+  padding: 24px;
+  opacity: 0;
+}
+
+.slideIn {
+  visibility: visible;
+  right: 0;
+  opacity: 1;
+  border-bottom: 1px solid #d1d6e5;
+}
+
+.nav {
+  display: flex;
+}
+.navList {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.navListItem {
+  line-height: 1.111em;
+  margin-bottom: 20px;
+}
+.navListItem a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  transition: all 0.3s ease-in;
+}
+
+.navListItem a:hover {
+  color: red;
+}
+.close {
+  background-color: transparent;
+  border: none;
+
+  height: 21px;
+  width: 24px;
+}
