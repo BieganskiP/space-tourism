@@ -1,0 +1,31 @@
+.planetButtons {
+  display: flex;
+  flex-direction: row;
+  gap: 27px;
+  margin-block: 26px 20px;
+}
+.button {
+  color: #d0d6f9;
+  text-transform: uppercase;
+  font-family: var(--font-family-barlow-condensed);
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 2.3625px;
+}
+.active {
+  color: #fff;
+  text-transform: uppercase;
+  border-bottom: none;
+  font-family: var(--font-family-barlow-condensed);
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 2.3625px;
+}
+.active::after {
+  content: "";
+  display: block;
+  margin-top: 8px;
+  width: 100%;
+  height: 1px;
+  border-bottom: 3px #fff solid;
+}
