@@ -1,15 +1,14 @@
 .overlay {
-  position: absolute;
+  position: fixed;
   top: 0;
   right: -100%;
-  bottom: 0;
   background: rgba(255, 255, 255, 0.04);
-  backdrop-filter: blur(40.7742px);
+  backdrop-filter: blur(40px);
   z-index: 10;
-  width: 66%;
-  height: 100dvh;
   transition: all 0.3s ease-in-out;
   visibility: hidden;
+  width: 66%;
+  height: 100%;
   padding: 24px;
   opacity: 0;
 }
@@ -18,7 +17,6 @@
   visibility: visible;
   right: 0;
   opacity: 1;
-  border-bottom: 1px solid #d1d6e5;
 }
 
 .nav {

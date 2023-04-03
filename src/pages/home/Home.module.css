@@ -2,15 +2,12 @@
   background-image: url(../../assets/backgrounds/background-home-mobile.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-
-  width: 100dvw;
+  max-width: 100%;
 }
-
 .textContent {
   color: #fff;
   padding: 24px;
 }
-
 .header {
   font-family: "Bellefair", serif;
   text-align: center;
