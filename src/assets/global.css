@@ -1,4 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;500;600;700;800;900&family=Barlow:wght@400;500;600;700;900&family=Bellefair&display=swap");
+:root {
+  --white: #ffffff;
+  --gray: #383b4b;
+  --blue: #d0d6f9;
+  --font-family-barlow: "Barlow", sans-serif;
+  --font-family-barlow-condensed: "Barlow Condensed", sans-serif;
+  --font-family-bellefair: "Bellefair", serif;
+  --font-size-base: 16px;
+  --line-height-base: 1.5;
+}
 
 * {
   margin: 0;
@@ -18,6 +28,6 @@ a {
 body {
   font-family: "Barlow", sans-serif;
   color: #fff;
-  overflow: hidden;
+  overflow-y: auto;
   scroll-behavior: smooth;
 }

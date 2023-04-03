@@ -8,9 +8,10 @@
   transition: all 0.3s ease-in-out;
   visibility: hidden;
   width: 66%;
-  height: 100%;
   padding: 24px;
   opacity: 0;
+  height: 100%;
+  overflow-y: auto;
 }
 
 .slideIn {
@@ -18,7 +19,6 @@
   right: 0;
   opacity: 1;
 }
-
 .nav {
   display: flex;
 }
